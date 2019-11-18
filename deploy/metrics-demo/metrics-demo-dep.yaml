@@ -4,8 +4,6 @@ apiVersion: apps/v1
 metadata:
   name: metrics-demo
   namespace: metrics-demo
-  annotations:
-    flux.weave.works/tag.metrics-demod: semver:>3.0.0
 spec:
   replicas: 3
   selector:
@@ -20,7 +18,7 @@ spec:
     spec:
       containers:
       - name: metrics-demod
-        image: quay.io/brice/metrics-demo:v6
+        image: quay.io/brice/metrics-demo:v4-subscription-service
         ports:
         - containerPort: 9898
         resources:
