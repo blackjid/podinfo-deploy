@@ -1,0 +1,1 @@
+{"jobID":"b3f333ca-38a1-88c1-6029-27e063cfc6ea","spec":{"type":"policy","cause":{"Message":"","User":"Juan Ignacio Donoso \u003cjuan.ignacio@buda.com\u003e"},"spec":{"dev:deployment/podinfo":{"add":{"automated":"true"},"remove":null}}},"result":null}
